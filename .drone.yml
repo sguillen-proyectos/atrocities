@@ -3,6 +3,12 @@ pipeline:
         image: debian:jessie
         commands:
             - ls -l
+            - bash build.sh
+            - cat all.log
             - echo 'Build finished :D'
             - echo 'yep'
-
+    other:
+        image: debian:jessie
+        commands:
+            - ls -l
+            - echo 'end of other'
