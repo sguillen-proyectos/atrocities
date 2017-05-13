@@ -4,7 +4,6 @@ pipeline:
         commands:
             - ls -l
             - sleep 10
-#            - bash build.sh
             - cat all.log
             - echo 'Build finished :D'
             - echo 'yep'
