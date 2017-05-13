@@ -3,7 +3,8 @@ pipeline:
         image: debian:jessie
         commands:
             - ls -l
-            - bash build.sh
+            - sleep 10
+#            - bash build.sh
             - cat all.log
             - echo 'Build finished :D'
             - echo 'yep'
